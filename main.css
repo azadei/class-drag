@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 20;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: url(pexels-blue-ox-studio-2063892.jpg);
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+}
+
+.first,
+.second,
+.third {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.55%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
+.heading {
+  margin-bottom: 15px;
+  margin-top: 3px;
+  font-size: 15px;
+}
+
+.task {
+  border: 1px solid #cecccc;
+  background-color: white;
+  border-radius: 7px;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  margin-right: 5%;
+  margin: 5px 5% 2px 0;
+}
+
+
+.card button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 13px;
+}
